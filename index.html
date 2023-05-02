@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body bgcolor="#00FFFF">
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+     
+    <div class="content">
+           
+
+      <div id="cadastro" class="form-group">
+        <form method="post" action="cadastrar"> 
+          <h1>Curso para designer de jogos<br><img src="https://dropsdejogos.uai.com.br/wp-content/uploads/sites/10/2018/09/k2_items_src_fcda95923187f8b425da14241c7e8c41-1280x720.jpg" title="logo do curso de design" width="300"></h1> 
+           
+          <p> 
+            <label for="title">Nome</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome" class="form-control"
+               ></input>
+          </p>
+           
+          <p> 
+            <label for="Email">Seu e-mail</label>
+            <input id="Email" name="Email" required="required" type="email" placeholder="fulano@gmail.com"/> 
+          </p>
+           
+          <p> 
+            <label for="Senha">Sua senha</label>
+            <input id="Senha" name="Senha" required="required" type="password" placeholder="ex. minhasenha123"/>
+          </p>
+          <p> 
+            <label for="pq">Por que acha que deve entrar para esse curso?</label>
+            <input id="pq" name="pq" required="pq" type="text"/>
+          </p>
+          <label for="voce">Em qual você se destaca mais?</label>
+          <select id="voce" name="voce">
+            <option value="a">animação</option>
+            <option value="r">roteiro</option>
+            <option value="p">programação</option>
+            <option value="d">Design de nivel</option>
+            <option value="o">Outro</option>
+          </select>
+          <p>
+          </p>
+          <p> 
+            <input type="button" onclick="alert('Conta cadastrada, avisaremos se você foi escolhido!')" value="Cadastrar">
+          </p>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
